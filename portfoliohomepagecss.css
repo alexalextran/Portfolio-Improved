@@ -1,25 +1,28 @@
 html{
-    background-color: rgb(236,240,243);
+    background-color: rgb(33,36,40);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
 }
+
 
 .imageheader{
     width: 100%;
     height: 250px;
-    background-color: aquamarine;
+    background-color: rgb(143, 164, 180);
 }
 
 .header{
     min-width: 1200px;
     max-width: 1200px;
     height: 200px;
-    background-color: blue;
+    background-color: rgb(56,56,56);
     margin: auto;
     transform: translateY(-70px);
     border-radius: 20px;
 }
 
 .profilepic{
-background-color: bisque;
+background-color: rgb(56,56,56);
 width: 20%;
 display: flex;
 justify-content: center;
@@ -32,7 +35,7 @@ justify-content: center;
 }
 
 .n-t{
-background-color: blanchedalmond;
+background-color: rgb(56,56,56);
 width: 30%;
 text-align: left;
 }
@@ -50,9 +53,10 @@ text-align: left;
 }
 
 .details{
-background-color: beige;
+background-color: rgb(56,56,56);
 width: 50%;
 display: grid;
+
 }
 
 .PD, .CD{
@@ -60,26 +64,29 @@ display: grid;
     font-size: 20px;
     max-height: 100%;
     width: 50%;
+    max-height: 200px;
 }
 
 .PD{
-background-color: chartreuse;
+background-color: rgb(56,56,56);
 width: 50%;
 }
 
 .CD{
-    background-color: coral;
+    background-color: rgb(56,56,56);
 }
 
 .infotype{
     transform: translateY(8px);
     text-align: left;
     margin-left: 32px;
+    
 }
 
 .info{
     text-align: left;
     margin-left: 32px;
+    font-size: 12px;
 }
 
 .flexcontainerheader{
@@ -100,11 +107,11 @@ width: 50%;
 }
 
 .center{
-    min-width: 950px;
-    min-width: 950px;
-    height: 700px;
+    min-width: 970px;
+    max-width: 970px;
+    height: 1000px;
     border-radius: 20px;
-    background-color: aquamarine;
+    background-color: rgb(56,56,56);
     margin-right: auto;
     margin-left: 50px;
 }
@@ -113,11 +120,22 @@ width: 50%;
     display: flex;
     flex-direction: row;
     height: 60%;
-    background-color: darkgreen;
+    width: 100%;
+    background-color: rgb(56,56,56);
 }
 
 .aboutmephoto{
-    background-color: rgb(67, 10, 100);
+    background-color: rgb(56,56,56);
+    height: 70%;
+    width: 30%;
+    margin: auto;
+}
+
+.flex-row-uni{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutmetext{
@@ -127,6 +145,18 @@ width: 50%;
 .About-Me{
     padding-left: 46px;
 }
+
+.aboutmycourse, .classes {
+    width: 40%;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(56,56,56);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+
 
 .title{
 padding-right: 0px;
@@ -157,8 +187,6 @@ width: 190px;
 height: 400px;
 margin-left: auto;
 border-radius: 20px;
-
-
 }
 
 ul {
@@ -171,7 +199,7 @@ li a{
     justify-content: center;
     align-items: center;
     height: 95px;
-    background-color: white;
+    background-color: rgb(236,240,243);
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -185,7 +213,7 @@ li a{
 
 li:hover, a:hover{
     transition: background-color 1s;
-    background-color: red;
+    background-color: rgb(212, 63, 105);
     border-radius: 10px;
     
 }
