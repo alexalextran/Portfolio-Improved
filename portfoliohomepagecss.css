@@ -48,7 +48,7 @@ text-align: left;
 
 #name{
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 500;
     margin: 20px;
 }
 
@@ -139,7 +139,7 @@ width: 50%;
 }
 
 h5{
-   color: rgb(212, 63, 105);
+    color: rgb(212, 63, 105);
    font-size: 18px;
 }
 
@@ -156,6 +156,10 @@ h5{
 
 .About-Me{
     padding-left: 46px;
+    margin-top: 25px;
+    font-weight: 100;
+    font-size: 40px;
+    color:rgb(212, 63, 105);
 }
 
 .aboutmycourse, .classes {
@@ -176,14 +180,19 @@ h5{
 padding-right: 0px;
 padding-left: 46px;
 margin: 20px 20px 0px 0px;
+font-size: 20px;
+font-weight: 200;
 }
 
 .cs{
-   border-right: 6px solid orange;
+   border-right: 6px solid white;
 animation: blink .65s step-end infinite;  
 width: fit-content;
 padding-left: 46px;
-margin: 0px 20px 20px 0px;
+padding-right: 7px;
+margin: 0px 20px 30px 0px;
+font-size: 20px;
+font-weight: 200;
 }
 
 .aboutmeinfo{
@@ -192,7 +201,7 @@ margin: 0px 20px 20px 0px;
 
 @keyframes blink{
     from, to { border-color: transparent }
-    50% { border-color: orange; }
+    50% { border-color: white; }
   }
 
 nav{
