@@ -431,10 +431,39 @@ li:hover, a:hover{
     
 }
 
+.altskills{
+    width: 50%;
+    height: 50%;
+    border: 2px solid green;
+    text-align: center;
+}
 
 .skills{
-    width: 100%;
-    height: 30%;
-    background-color: turquoise;
+    width: 50%;
+    height: 50%;
+    border: 2px solid green;
     text-align: center;
+   
+}
+
+.skillbar{
+    width: 80%;
+    height: 14px;
+    border-radius: 20px;
+    background-color: gray;
+    margin: auto;
+    display: flex; 
+    align-items: center;
+}
+
+
+.lang{
+    
+    margin-left:4px; 
+    font-size: 10px; 
+    text-align: center; 
+    color: black; 
+    height: 55%; 
+    border-radius: 20px; 
+    
 }
