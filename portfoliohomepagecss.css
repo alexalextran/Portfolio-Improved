@@ -140,7 +140,6 @@ width: 50%;
     flex-direction: row;
     height: 30%;
     width: 100%;
-    background-color: rgb(221, 59, 59);
     margin-bottom: 0px;
    
 }
@@ -165,7 +164,6 @@ h5{
     position: relative;
 } 
 .selector{
-   
     width: 200px;
     height: 300px;
     top: 15%;
@@ -175,120 +173,153 @@ h5{
 }
  .code:hover ~ .box.Coding{
    z-index: 20;
+   transition: opacity 1s;
+   opacity: 1;
  }
+
+ .code:hover ~ .box{
+     opacity: 0;
+     transition: opacity 1s;
+ }
+
  .code:hover{
    background-color: #000000;
    color: white;
+   transition: background-color 1s;
   }
  
 
   .crp:hover ~ .box.Crypto{
     z-index: 20;
+    transition: opacity 1s;
+    opacity: 1;
   }
+
+  .crp:hover ~ .box{
+    opacity: 0;
+   
+}
+
   .crp:hover{
     background-color: #000000;
     color: white;
+    transition: background-color 1s;
    }
   
 
    .fitn:hover ~ .box.Fitness{
     z-index: 20;
+    transition: opacity 1s;
+    opacity: 1;
   }
+
+  .fitn:hover ~ .box{
+    opacity: 0;
+    transition: opacity 1s;
+    
+}
+
   .fitn:hover{
     background-color: #000000;
     color: white;
+    transition: background-color 1s;
    }
    
 
    .mus:hover ~ .box.Music{
     z-index: 20;
+    transition: opacity 1s;
+    opacity: 1;
   }
+
+  .mus:hover ~ .box{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
   .mus:hover{
     background-color: #000000;
     color: white;
+    transition: background-color 1s;
    }
   
  
  
-
+.code, .crp, .fitn, .mus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    color: black;
+}
 
 
 .code{
-    background-color: white;
-    width: 200px;
     height: 75.6px;
     top: 15%;
-    left: 13%;
-    position: absolute;
-    color: black;
-    
+    left: 11.4%;
 }
 
 .crp{
-   
-    background-color: #ffffff;
-    color: black;
-    width: 200px;
     height: 75px;
     top: 33%;
-    left: 13%;
-    position: absolute;
+    left: 11.4%;
+   
 }
 
 .fitn{
-    
-    background-color: white;
-    color: black;
-    width: 200px;
     height: 75px;
     top: 51%;
-    left: 13%;
-    position: absolute;
+    left: 11.4%;
 }
 
 .mus{
-   
-    background-color: rgb(255, 255, 255);
-    width: 200px;
     height: 75px;
-    top: 68.7%;
-    left: 13%;
-    position: absolute;
-    color: black;
+    top: 68.5%;
+    left: 11.4%;
 }
 
   .box {
     width: 500px;
-    height: 300px;
+    height: 272px;
     position: absolute;
     top: 15%;
     left: 32%;
     color: #000000;
     z-index: 11;
     background: white;
+    text-align: center;
+    padding: 14px;
+    transition: opacity 1s;
   }
   
   .Coding {  
     color: white;
     background: #000000;
     z-index: 10;
+    opacity: 0;
   }
 
   .Crypto {
+    color: white;
     z-index: 7;
-   
+    opacity: 0;
     background: #000000;
   }
 
   .Fitness {
+    color: white;
     z-index: 6;
-   
+    opacity: 0;
     background: #000000;
   }
 
   .Music {
+    color: white;
     z-index: 5;
-    
+    opacity: 0;
     background: #000000;
   }
 
