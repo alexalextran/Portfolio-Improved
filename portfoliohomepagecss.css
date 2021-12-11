@@ -128,7 +128,7 @@ width: 50%;
 .center{
     min-width: 970px;
     max-width: 970px;
-    height: 1000px;
+    height: 1400px;
     border-radius: 20px;
     background-color: rgb(56,56,56);
     margin-right: auto;
@@ -138,16 +138,18 @@ width: 50%;
 .flex-row-center{
     display: flex;
     flex-direction: row;
-    height: 60%;
+    height: 30%;
     width: 100%;
-    background-color: rgb(56,56,56);
+    background-color: rgb(221, 59, 59);
+    margin-bottom: 0px;
+   
 }
 
 .aboutmephoto{
     background-color: rgb(56,56,56);
     height: 70%;
-    width: 30%;
-    margin: auto;
+    width: 20%;
+    margin: 40px 40px 0px 20px;
 }
 
 h5{
@@ -155,9 +157,51 @@ h5{
    font-size: 18px;
 }
 
+.hobbiesoverlay{
+    width: 100%;
+    height: 30%;
+    background-color: aqua;
+    position: relative;
+} 
+  .box {
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    opacity: 0.7;
+    background: #0057e3;
+  }
+  
+  .Coding {
+    z-index: 8;
+    opacity: 0.7;
+    background: #008832;
+  }
+
+  .Crypto {
+    z-index: 7;
+    opacity: 0.7;
+    background: #d5d80a;
+  }
+
+  .Fitness {
+    z-index: 6;
+    opacity: 0.7;
+    background: #d60f9a;
+  }
+
+  .Music {
+    z-index: 5;
+    opacity: 0.7;
+    background: #ce3e1a;
+  }
+
 .unititle{
     display: flex;
     justify-content: center;
+    margin-top: 0px;
+    
 }
 
 .flex-row-uni{
@@ -165,6 +209,7 @@ h5{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .aboutmetext{
@@ -183,7 +228,7 @@ h5{
     width: 40%;
     height: 200px;
     padding: 30px;
-    margin: 20px;
+    margin: 0px 20px 0px 20px;
     background-color: rgb(56,56,56);
     border: 2px solid white;
     border-radius: 20px;
