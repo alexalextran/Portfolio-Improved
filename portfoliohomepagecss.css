@@ -431,18 +431,21 @@ li:hover, a:hover{
     
 }
 
+h4{
+    font-weight: 200;
+}
+
 .altskills{
     width: 50%;
     height: 50%;
-    border: 2px solid green;
     text-align: center;
 }
 
 .skills{
     width: 50%;
     height: 50%;
-    border: 2px solid green;
     text-align: center;
+  
    
 }
 
@@ -458,12 +461,25 @@ li:hover, a:hover{
 
 
 .lang{
-    
     margin-left:4px; 
     font-size: 10px; 
     text-align: center; 
     color: black; 
     height: 55%; 
     border-radius: 20px; 
-    
 }
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+    z-index: 100;
+    background-color: rgb(56,56,56);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(102,148,246);
+    border-width: 2px 0 2px;
+    border-style: solid;
+    border-color: #3d1d5b;
+    box-shadow: 0 -100vh 0 100vh white;
+  }
+
