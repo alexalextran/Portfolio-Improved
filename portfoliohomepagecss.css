@@ -582,3 +582,11 @@ body::-webkit-scrollbar {
     transform: scale(1.05);
     filter: saturate(1);
   }
+
+  .big-gif{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
