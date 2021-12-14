@@ -583,10 +583,34 @@ body::-webkit-scrollbar {
     filter: saturate(1);
   }
 
-  .big-gif{
-    box-sizing: border-box;
-    margin: 20px;
-    padding: 20px;
-    display: flex;
+  .projinfo, .projinfocard{
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
     justify-content: center;
+    border: 2px rgb(102,148,246) solid;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .projinfocard{
+    background-color: rgb(56,56,56);
+    color: #ffffff;
+    position: absolute;
+    transform: translateX(300px);
+      z-index: 1;
+      transition: all 1s;
+  }
+
+  .projinfocard:hover{
+    opacity: 0;
+    transition: all 1s;
+  }
+
+  .big-gif{
+    justify-content: center;
+    width: 600px;
+    border: solid 2px rgb(102,148,246) ;
+    border-width: 2px 0px 2px 2px;
   }
