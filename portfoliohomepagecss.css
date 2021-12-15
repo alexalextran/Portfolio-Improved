@@ -523,6 +523,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
     width: 200px;
+    border: 2px solid rgb(102,148,246);
   }
   
   .button-27:hover {
@@ -584,7 +585,7 @@ body::-webkit-scrollbar {
   }
 
   .projinfo, .projinfocard{
-    height: 300px;
+    height: 304px;
     width: 300px;
     background-color: #ffffff;
     justify-content: center;
@@ -592,21 +593,30 @@ body::-webkit-scrollbar {
     color: black;
     padding: 20px;
     box-sizing: border-box;
+    transition: all 1s;
+  }
+
+  .projinfo{
+    opacity: 0;
+    transition: all 1s;
   }
 
   .projinfocard{
     background-color: rgb(56,56,56);
     color: #ffffff;
     position: absolute;
-    transform: translateX(300px);
-      z-index: 1;
+    transform: translateX(299px);
       transition: all 1s;
   }
 
-  .projinfocard:hover{
-    opacity: 0;
+
+  .projinfo:hover{
+    opacity: 1;
     transition: all 1s;
+    z-index: 2;
   }
+
+  
 
   .big-gif{
     justify-content: center;
