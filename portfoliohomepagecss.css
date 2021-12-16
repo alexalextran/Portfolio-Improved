@@ -628,14 +628,13 @@ body::-webkit-scrollbar {
   .contactcard, .contactform{
     height: 500;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 10px;
     margin: 40px;
-    background-color: aqua;
     
   }
 
   .contactcard{
-    width: 35%;
+    width: 40%;
   }
 
   .contactform{
@@ -657,7 +656,7 @@ body::-webkit-scrollbar {
   
   input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: rgb(102,148,246);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -665,3 +664,61 @@ body::-webkit-scrollbar {
     border-radius: 4px;
     cursor: pointer;
   }
+
+
+  
+.contactbutton:hover{
+  cursor: pointer
+}
+
+/*button design*/
+  .contactbutton{
+      background-color: rgb(102,148,246);
+      color: #fff;
+      position: relative;
+    border: 2px solid #111;
+    padding: 15px 50px;
+    margin: 20px 0px 35px 0px;
+    overflow: hidden;
+  }
+
+ /*button thankyoutext*/
+.contactbutton:hover:before{
+  opacity: 1; transform: translate(0,0);
+}
+
+ /*button thankyoutext*/
+  .contactbutton:before{
+    content: attr(data-hover);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    letter-spacing: 3px;
+    font-size: 15px;
+    opacity: 0;
+    transform: translate(-100%,0);
+    transition: all .3s ease-in-out;
+  }
+  
+    /*button div animation*/
+    .contactbutton:hover div{
+      opacity: 0; transform: translate(100%,0);
+    }
+
+    .contactbutton:hover{
+      border-radius: 20px;
+      transition: all .3s ease-in-out;
+    }
+
+    .contactbutton{
+      transition: all 1s;
+    }
+
+       /*button submit text*/
+    .contactbutton div{
+      font-size: 15px;
+      letter-spacing: 3px;
+      transition: all .3s ease-in-out;
+      
+    }
+
