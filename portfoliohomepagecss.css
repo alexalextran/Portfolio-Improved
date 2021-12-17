@@ -352,13 +352,25 @@ h5{
 
 .aboutmycourse, .classes {
     width: 40%;
-    height: 200px;
-    padding: 30px;
+    height: 300px;
+    padding: 0px;
     margin: 0px 20px 0px 20px;
     background-color: rgb(56,56,56);
     border: 2px solid white;
     border-radius: 20px;
     text-align: center;
+    align-items: center;
+}
+
+.autclass{
+  margin: 0px;
+  box-sizing: border-box;
+ 
+}
+
+.autclass li{
+margin-bottom: 10px;
+font-size: 14px;
 }
 
 
