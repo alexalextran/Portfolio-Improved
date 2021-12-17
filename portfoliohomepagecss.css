@@ -652,16 +652,42 @@ body::-webkit-scrollbar {
   .contactform{
     width: 55%;
     margin-left: 0px;
+    background-color: transparent;
   }
   input[type=text]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 0;
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 35px;
+    background: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+    font-size: 14px;
+    color: white;
+  }
+
+ textarea{
+  background: transparent; 
+  height: 100px; 
+  width: 99%; 
+  resize: none; 
+  border-radius: 4px;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid white;
+  transition: border 0.3s ease-in-out;
+  font-size: 14px;
+  color: white;
+ }
+  
+  
+  input:focus, textarea:focus{
+    border-bottom: 1px solid rgb(102,148,246);
   }
 
  
