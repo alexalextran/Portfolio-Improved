@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,7 +22,7 @@
 
                                 <div class = "n-t">
                                     <div id = "name">
-                                        <p>Alex Tran</p>
+                                        <p>Stop</p>
                                     </div>
 
                                     <div id = "title">
@@ -61,7 +62,7 @@
                 
                 <ul>
                     <li>
-                       <a href="portfoliohomepage.html">About</a> 
+                       <a href="index.html">About</a> 
                     </li>
                     <li>
                         <a href="resumepf.html" >Resume</a>
@@ -79,7 +80,7 @@
                      <div class="center flex-row" style="height: 800px;">
 
                         <div class="contactcard">
-                            <div><img src=file:///C:/Users/Alex%20Tran/Desktop/portfolioimages/contact.png></div>
+                            <div><img src="assets/contact.png"></div>
                             <h4>Alex Tran</h4>
                             <p>If you have any enquiries feel free to contact me on either linked in or through email. (By the way the contact form does not work yet, but it will whenever I learn javascript, however the contact button still works!)</p>
                             <p>alextran474@gmail.com - Business Enquiries Only</p>
@@ -90,11 +91,11 @@
 
                         <div class="contactform">
                             <div>
-                                <form action="/action_page.php">
+                                <form action="mail_handler.php">
                                     <div class="flex-row" style="align-items: center; justify-content: space-between;">
                                     
                                     <div> <label for="fname"> Name</label>
-                                  <input style="width: 90%;" type="text" id="fname"  placeholder="Your name..">
+                                  <input style="width: 90%;" type="text" id="fname" name="name" placeholder="Your name..">
                                      </div>
                                  
                                      <div><label style="margin-left: 23px;" for="subject">Subject</label>
@@ -103,21 +104,13 @@
                             </div>
 
                             <label for="email">Email</label>
-                            <input type="text" id="email"  placeholder="Email...">
+                            <input type="text" id="email" name="email"  placeholder="Email...">
 
                             <label for="message">Message</label>
-                            <textarea type="text" id="message" placeholder="Message..."></textarea>
+                            <textarea type="text" id="message" name="message" placeholder="Message..."></textarea>
+                            <input type="submit">
                         </form>
-                                <a href= "mailto:alextran474@gmail.com">
-                                  <button style=" width: 100%;
-                                  background-color: rgb(102,148,246);
-                                  color: white;
-                                  padding: 14px 20px;
-                                  margin: 8px 0;
-                                  border: none;
-                                  border-radius: 4px;
-                                  cursor: pointer;">Submit</button>
-                                </a>
+                               
                               
                               </div>
                               
